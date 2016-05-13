@@ -7,14 +7,14 @@ The update pane allows changes to be made to the inventory. The pruchase tab all
 
 The gui container holds the base container for the tabbed panes, the array list of books added or updated, the current book objects passed to and from the database.
 It also sets up method calls between tabs.
-The dataentry tab has a createDB button that creates or sets the value of the database table and cloumns to a default. The intiDB button addes 4 books as base seed of data.
-The labels an textfeilds and save button are set in grid layout and allow new books to be added. Then calls update nethods in the other panels so they have the current data.
+The dataentry tab has a createDB button that creates or sets the value of the database table and columns to a default. The intiDB button addes 4 books as base seed of data.
+The labels and textfeilds and save button are set in grid layout and allow new books to be added. The save button calls update nethods in the other panels so they have the current data.
 The dateupdate panel has a combobox of all availble books. Selecting one populates the rest of the textfields(in grid layout) so changes can be made. Clicking the save button updates the database.
 and calls the update function for the purchase panel.
 The purchase panel ( in grid layout) has a combobox that allows the selection of the book to purchase. The number purchased is set in the quanty field.
-Click the purchase button reudces the number of the book in inventory, updates the change to the database, add the purchase to arraylist held by the bookpurchased class.
+Click the purchase button reduces the number of the books in inventory, updates the change to the database, add the purchase to arraylist held by the bookpurchased class.
 Then outputs the purchase information (title, qunatity, total price, total profit).
-The bbokpurchase class holds the array list of book purchased and calculates total sale and total profit based on quantity purchased.
+The bookpurchase class holds the array list of book purchased and calculates total sale and total profit based on quantity purchased.
 
 
 The execption container holds the custom error handler for faulty user input. it displays message based on what input was incorrect
