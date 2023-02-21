@@ -1,7 +1,7 @@
 # JavaFinal
 Java Final
 
-Final project for Java development class
+Final project for Java development class.
 The app creates 3 tabbed panes that imitate a simple book purchasing app. The entery pane adds new books to the database and the quantity.
 The update pane allows changes to be made to the inventory. The pruchase tab allows for purchase of itmes and displays total price and profit.
 
